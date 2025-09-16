@@ -1,5 +1,7 @@
 draw.AddFontResource("TT Octosquares Trl Db.ttf")
 local Nestoberyl = draw.CreateFont("TT Octosquares Trl Db", 25, 500)
+-- MAKE SURE TO CHANGE THIS INTO WHATEVER FONT YOU WANT ( put in Team Fortress folder )
+
 local currentFrame = 0
 local victim = 0
 local attacker = 0
@@ -143,4 +145,5 @@ end
 callbacks.Register("Draw", "drawWatermark", watermark)
 
 callbacks.Register("FireGameEvent", "examplekilledLogger2", killedLogger2)
+
 -- made by lovetaste 2021, edited by Boner 2025
