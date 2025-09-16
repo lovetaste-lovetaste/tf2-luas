@@ -146,4 +146,5 @@ callbacks.Register("Draw", "drawWatermark", watermark)
 
 callbacks.Register("FireGameEvent", "examplekilledLogger2", killedLogger2)
 
--- made by lovetaste 2021, edited by Boner 2025
+-- made by lovetaste
+
